@@ -79,3 +79,13 @@ footer img{
 .nosotros h1{
     color: #fff;
 }
+/*noticias*/
+.noticias_header{
+    background-image: url("../img/noticias.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+.noticias_header h1{
+    color: #fff;
+}
+
