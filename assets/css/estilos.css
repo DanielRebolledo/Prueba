@@ -1,0 +1,81 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 60px;
+    color: #008ccc;
+}
+h4{
+    font-weight: bold;
+
+}
+p{
+    font-size: 16px;
+    color: #707070;
+}
+
+.navbar-default{
+    background-color: #008ccc;
+    color: #707070;
+}
+.navbar{
+ margin-bottom: 0px; 
+}
+.navbar-brand img{
+    width: 80px;
+    padding: 0;
+}
+header{
+    height: 400px;
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: relative;
+}
+header .header_txt{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+header a{
+    color: #fff;
+    font-size: 20px;
+    background-color: #008ccc;
+    border-radius: 10%;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+/*footer*/
+footer{
+    background-color: #008ccc;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer{
+    padding-bottom: 50px;
+}
+footer img{
+    width: 150px;
+}
+.contacto ul li{
+    list-style: none;
+    
+}
+.contacto ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*nosotros*/
+.nosotros{
+    background-image: url("../img/nosotros.jpg");
+    background-attachment: fixed;
+}
+.nosotros h1{
+    color: #fff;
+}
